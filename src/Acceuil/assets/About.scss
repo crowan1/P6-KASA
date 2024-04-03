@@ -1,0 +1,44 @@
+h2, p {
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.p-collapse{
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.dropdown-open-collapse{
+    margin-bottom: 15px;
+}
+
+.Collapse-dropdown{
+    width: 80%;
+    margin: auto;
+
+   
+
+   
+
+    .title{  
+         display: flex;
+         justify-content: space-between;
+        background-color: #FF6060;
+        border-radius: 5px;
+        padding: 10px 20px 10px 15px;
+
+
+  
+    }
+}

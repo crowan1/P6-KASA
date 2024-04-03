@@ -1,0 +1,22 @@
+footer {
+    background-color: black;
+    color: white;
+    min-height: 200px;
+    width: 100%;
+
+    .div-footer{
+        text-align: center;
+        padding-top: 70px;
+
+         h3{
+            font-size: 30px ;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        img{
+            width: 15px;
+            padding-right: 5px;
+        }
+    }
+}
+

@@ -1,0 +1,72 @@
+.collapse-equipements{
+    height: 50px;
+}
+
+.collapse-description{
+    height: 50px;
+}
+
+
+.card-container{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.slideractive {
+    height: 415px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.icon-vide{
+    color: #E3E3E3;
+}
+
+
+.slider-num{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 510px;
+    left: 50%;
+}
+
+.mg-prev{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 330px;
+    left: 8%;
+}
+
+.mg-next{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 330px;
+    right: 8%;
+}
+
+.title-logement{
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 36px;
+
+}
+
+.tag-rat-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slider {
+    height: 415px;
+width: 100%;
+object-fit: cover;
+border-radius: 25px;
+}
