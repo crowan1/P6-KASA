@@ -38,13 +38,13 @@ const Cardslogements = () => {
             <Rate  ratingScale= {FicheLog?.rating} />
             </div>
             <div className='collapse-container'>
-                <div className='collapse-description'>
+                <div className='col-2'>
                     <Collapse 
                         title="Description"
                         content={FicheLog.description}
                     />
                 </div>
-                <div className='collapse-equipements'>
+                <div className='col-2'>
                     <Collapse
                         title="Equipement"
                         content={equipmentsList}

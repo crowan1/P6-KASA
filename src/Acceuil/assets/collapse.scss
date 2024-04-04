@@ -2,20 +2,16 @@
     margin-bottom: 50px;
 }
 
+.dropdown-open-collapse{
+  border-radius: 5px;
+  .title{
+      background-color: #FF6060;
+  
+  }
 
-
-
-.collapse-description {
-    background-color: #FF6060;
-    width: 45%;
-    border-radius: 5px;
 }
 
-.collapse-equipements {
-        background-color: #FF6060;
-        width: 45%;
-        border-radius: 5px;   
-}
+
 
 .collapse-container{
     display: flex;
@@ -23,12 +19,7 @@
 }
 
 
-.title {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 15px 10px 10px;
 
-}
 
 .icon {
     transition: transform 0.3s ease; 
