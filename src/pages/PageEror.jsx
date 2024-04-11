@@ -1,5 +1,5 @@
-import Footer from '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/components/Footer.js';
-import Nav from '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/components/Banner.js'
+import Footer from '../Acceuil/components/Footer.jsx';
+import Nav from '../Acceuil/components/Banner.jsx'
 import Eror from '../Acceuil/components/Eror404';
 
 function Page404 () {

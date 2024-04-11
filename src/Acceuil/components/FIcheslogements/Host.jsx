@@ -1,5 +1,6 @@
 import React from "react";
-import '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/Host.scss'
+import '../../assets/Host.scss'
+
 
 function Host ({name, picture}) {
     return (
@@ -9,7 +10,7 @@ function Host ({name, picture}) {
             </div>
 
             <div>
-                <img src={picture}/>
+                <img src={picture} alt="image-host"/>
             </div>
         </div>
     )

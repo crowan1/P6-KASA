@@ -1,7 +1,7 @@
-import Footer from '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/components/Footer.js';
-import Nav from '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/components/Banner-Apropos.js'
+import Footer from '../Acceuil/components/Footer.jsx';
+import Nav from '../Acceuil/components/Banner-Apropos.jsx'
 import Collapse from '../Acceuil/components/Collapse';
-import CollapseData from '/Users/charloo/Desktop/workflow/kasa/src/data/collapse.json';
+import CollapseData from '../../src/data/collapse.json';
 import React from 'react';
 
 

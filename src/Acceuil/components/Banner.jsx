@@ -1,5 +1,5 @@
-import '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/Banner.scss'
-import logo from '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/img/Group.png'
+import '../assets/Banner.scss'
+import logo from '../../Acceuil/assets/img/Group.png'
 import { NavLink } from 'react-router-dom'
   
 const Nav = () =>{

@@ -1,6 +1,6 @@
 import React from "react";
-import '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/coverIMG/Accueil.scss'
-import IMG from '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/img/Montagne.webP'
+import '../../Acceuil/coverIMG/Accueil.scss'
+import IMG from '../../Acceuil/assets/img/Montagne.webP'
 
 const CoverImg = () =>{
     return(

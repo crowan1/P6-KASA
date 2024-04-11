@@ -1,5 +1,5 @@
 import React from "react";
-import '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/tags.scss'
+import '../../assets/tags.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as solidStar } from '@fortawesome/free-solid-svg-icons';
 

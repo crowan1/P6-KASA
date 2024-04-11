@@ -1,5 +1,5 @@
-import '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/Footer.scss'
-import logo from '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/img/Group-2.png'
+import '../assets/Footer.scss'
+import logo from '../assets/img/Group-2.png'
 
 function Footer () {
 

@@ -1,8 +1,8 @@
 import React, {useState} from "react";
-import '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/About.scss'
+import '../assets/About.scss'
 import { faChevronUp  } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/A-propos.scss'
+import '../assets/A-propos.scss'
 
 
 const Collapse = ({title, content}) =>{

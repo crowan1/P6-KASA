@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route, Navigate, HashRouter } from "react-router-dom";
-import Home from '/Users/charloo/Desktop/workflow/kasa/src/pages/Accueil.js'
-import About from '/Users/charloo/Desktop/workflow/kasa/src/pages/Apropos.js'
-import CardLogement from '/Users/charloo/Desktop/workflow/kasa/src/pages/PagesLogements.js'
-import Page404 from '/Users/charloo/Desktop/workflow/kasa/src/pages/PageEror.js'
+import Home from '../src/pages/Accueil.jsx'
+import About from '../src/pages/Apropos.jsx'
+import CardLogement from '../src/pages/PagesLogements.jsx'
+import Page404 from '../src/pages/PageEror.jsx'
 
 function App() {
   return (

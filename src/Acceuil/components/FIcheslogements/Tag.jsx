@@ -1,5 +1,5 @@
 import React from "react";
-import '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/tags.scss';
+import '../../assets/tags.scss';
 
 
 function Tags ({tags}) {

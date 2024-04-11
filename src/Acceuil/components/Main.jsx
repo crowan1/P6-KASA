@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
-import '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/main.scss'
-import LogementData from '/Users/charloo/Desktop/workflow/kasa/src/data/logement.json'
+import '../assets/main.scss'
+import LogementData from '../../data/logement.json'
 
 function Container() {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/404.scss'
+import '../assets/404.scss'
 import { NavLink } from 'react-router-dom'
 
 function Eror () {

@@ -1,6 +1,6 @@
-import '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/Banner-About.scss'
-import IMG from '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/img/Montagne-forets.png'
-import logo from '/Users/charloo/Desktop/workflow/kasa/src/Acceuil/assets/img/Group.png'
+import '../assets/Banner-About.scss'
+import IMG from '../../Acceuil/assets/img/Montagne-forets.png'
+import logo from '../../Acceuil/assets/img/Group.png'
 import { NavLink } from 'react-router-dom'
 
 const Nav = () =>{
