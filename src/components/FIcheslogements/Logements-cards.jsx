@@ -1,5 +1,5 @@
 import { useParams, Navigate} from 'react-router-dom'
-import LogementData from '../../../data/logement.json'
+import LogementData from '../../data/logement.json'
 import Collapse from '../../components/Collapse.jsx'
 import '../../assets/collapse.scss'
 import Slider from './Cards'
@@ -29,13 +29,19 @@ const Cardslogements = () => {
             <div className='container-slides'>
                 <Slider slides={FicheLog?.pictures}/>
             </div>
-            <div className='title'>
-                <Name location={FicheLog?.location} nom={FicheLog?.title}/>
-                <Host  name={FicheLog?.host.name} picture={FicheLog?.host.picture}/>
-            </div>
-            <div className='tag-rat-container'>
+
+            <div className='container-title-rat'>
+<div className='title-logement-card'>
+ <Name location={FicheLog?.location} nom={FicheLog?.title}/>
+ <br />
                 <Tags tags={FicheLog?.tags}/>
+            </div>
+               <div className='rat-user-logement'>
+ <Host  name={FicheLog?.host.name} picture={FicheLog?.host.picture}/>
+ <br />
             <Rate  ratingScale= {FicheLog?.rating} />
+
+               </div>
             </div>
             <div className='collapse-container'>
                 <div className='col-2'>

@@ -1,6 +1,6 @@
-import Footer from '../Acceuil/components/Footer.jsx';
-import Nav from '../Acceuil/components/Banner.jsx'
-import Eror from '../Acceuil/components/Eror404';
+import Footer from '../components/Footer.jsx';
+import Nav from '../components/Banner.jsx'
+import Eror from '../components/Eror404';
 
 function Page404 () {
     return(

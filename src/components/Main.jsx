@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import '../assets/main.scss'
-import LogementData from '../../data/logement.json'
+import LogementData from '../data/logement.json'
 
 function Container() {
     return (

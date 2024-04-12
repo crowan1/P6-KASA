@@ -1,8 +1,8 @@
-import Nav from '../Acceuil/components/Banner'
-import '../Acceuil/assets/App.css';
-import Container from '../Acceuil/components/Main'
-import Footer from '../Acceuil/components/Footer';
-import CoverImg from '../Acceuil/coverIMG/AcceuilIMG';
+import Nav from '../components/Banner'
+import '../assets/App.css';
+import Container from '../components/Main'
+import Footer from '../components/Footer';
+import CoverImg from '../coverIMG/AcceuilIMG';
 
 const  Home = () => {
   return (

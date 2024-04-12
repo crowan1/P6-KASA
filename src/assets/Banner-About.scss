@@ -1,0 +1,19 @@
+.IMG1-cover{
+    width: 90%;
+    margin: auto;
+.IMG-about {
+    width: 100%;
+    height: 200px;
+    border-radius: 25px;
+    object-fit: cover;
+
+    @media screen and (max-width: 450px) {
+        height: 125px;
+        margin: auto;
+    }
+
+}
+
+
+
+}

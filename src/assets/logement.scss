@@ -71,3 +71,48 @@ border-radius: 25px;
 .col-2{
     width: 45%;
 }
+
+.container-title-rat{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 550px) {
+
+    .mg-prev{
+        position: absolute;
+        top: 180px;
+    }
+    .mg-next{
+        position: absolute;
+        top: 180px;
+    }
+
+    .slider-num{
+        position: absolute;
+        top: 300px;
+    }
+
+    .slider{
+        height: 255px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container-title-rat {
+        display: flex;
+        flex-direction: column;
+
+        .rat-user-logement {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+            .ratting-container {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

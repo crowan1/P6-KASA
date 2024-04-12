@@ -1,6 +1,6 @@
-import Footer from '../Acceuil/components/Footer.jsx';
-import Nav from '../Acceuil/components/Banner-Apropos.jsx'
-import Collapse from '../Acceuil/components/Collapse';
+import Footer from '../components/Footer.jsx';
+import Nav from '../components/Banner-Apropos.jsx'
+import Collapse from '../components/Collapse';
 import CollapseData from '../../src/data/collapse.json';
 import React from 'react';
 

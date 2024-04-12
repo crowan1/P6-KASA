@@ -1,8 +1,8 @@
 import React from "react";
-import '../Acceuil/assets/logement.scss'
-import Footer from '../Acceuil/components/Footer.jsx';
-import Nav from '../Acceuil/components/Banner.jsx'
-import Cardslogements from '../Acceuil/components/FIcheslogements/Logements-cards.jsx'
+import '../assets/logement.scss'
+import Footer from '../components/Footer.jsx';
+import Nav from '../components/Banner.jsx'
+import Cardslogements from '../components/FIcheslogements/Logements-cards.jsx'
 
 const CardLogement = () =>{
 

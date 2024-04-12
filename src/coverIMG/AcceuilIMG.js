@@ -1,6 +1,6 @@
 import React from "react";
-import '../../Acceuil/coverIMG/Accueil.scss'
-import IMG from '../../Acceuil/assets/img/Montagne.webP'
+import './Accueil.scss'
+import IMG from '../assets/img/Montagne.webP'
 
 const CoverImg = () =>{
     return(

@@ -44,25 +44,16 @@
     .collapse-container{
       display: flex;
       flex-direction: column;
-      margin-top: 120px;
     }
 
     .col-2{
       width: 100%;
     }
 
-    .Host-container{
-      position: absolute;
-    top: 750px;
-    right: 20px;
-    }
-
-    .ratting-container{
-      position: absolute;
-      top: 750px;
-      left: 20px;
-
-    }
-
+   .tag-rat-container{
+    display: flex;
+    flex-direction: column;
+   }
+   
 
   }
