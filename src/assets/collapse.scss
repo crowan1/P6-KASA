@@ -1,59 +1,67 @@
-.collapse-container{
-    margin-bottom: 50px;
+.collapse-container {
+  margin-bottom: 50px;
+
+  h2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+
+  }
 }
 
-.dropdown-open-collapse{
+.dropdown-open-collapse {
   border-radius: 5px;
-  .title{
-      background-color: #FF6060;
-  
+
+  .title {
+    background-color: #FF6060;
+
   }
 
 }
 
 
 
-.collapse-container{
-    display: flex;
-    justify-content: space-between;
+.collapse-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 
 
 
 .icon {
-    transition: transform 0.3s ease; 
-    color: white;
-  }
+  transition: transform 0.3s ease;
+  color: white;
+}
 
-  .icon:hover{
-    cursor: pointer;
-  }
-  
-  .icon.rotate {
-    transform: rotate(180deg); 
-  }
+.icon:hover {
+  cursor: pointer;
+}
 
-  .dropdown-open-collapse{
-    margin-bottom: 20px ;
-  }
+.icon.rotate {
+  transform: rotate(180deg);
+}
+
+.dropdown-open-collapse {
+  margin-bottom: 20px;
+}
 
 
-  @media screen and (max-width: 500px)  {
+@media screen and (max-width: 500px) {
 
-    .collapse-container{
-      display: flex;
-      flex-direction: column;
-    }
-
-    .col-2{
-      width: 100%;
-    }
-
-   .tag-rat-container{
+  .collapse-container {
     display: flex;
     flex-direction: column;
-   }
-   
-
   }
+
+  .col-2 {
+    width: 100%;
+  }
+
+  .tag-rat-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}

@@ -1,44 +1,49 @@
-h2, p {
+* {
+    font-family: 'Montserrat';
+}
+
+h2,
+p {
     margin: 0;
 }
 
-body{
+body {
     margin: 0;
 }
 
-main{
+main {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 
-.p-collapse{
+.p-collapse {
     background-color: rgb(245, 245, 245);
     padding: 10px;
     border-radius: 5px;
 }
 
 
-.dropdown-open-collapse{
+.dropdown-open-collapse {
     margin-bottom: 15px;
 }
 
-.Collapse-dropdown{
+.Collapse-dropdown {
     width: 80%;
     margin: auto;
 
-   
 
-   
 
-    .title{  
-         display: flex;
-         justify-content: space-between;
+
+
+    .title {
+        display: flex;
+        justify-content: space-between;
         background-color: #FF6060;
         border-radius: 5px;
         padding: 10px 20px 10px 15px;
 
 
-  
+
     }
 }

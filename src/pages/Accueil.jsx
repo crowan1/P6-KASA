@@ -4,16 +4,17 @@ import Container from '../components/Main'
 import Footer from '../components/Footer';
 import CoverImg from '../coverIMG/AcceuilIMG';
 
-const  Home = () => {
+const Home = () => {
   return (
     <div className="Home">
       {Nav}
-      <CoverImg/>
+      <CoverImg />
       {Container}
       {Footer}
-      
+
     </div>
   );
 }
 
 export default Home;
+

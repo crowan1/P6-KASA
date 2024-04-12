@@ -2,7 +2,7 @@ import React from "react";
 import '../../assets/Host.scss'
 
 
-function Host ({name, picture}) {
+function Host({ name, picture }) {
     return (
         <div className="Host-container">
             <div className="name-logement">
@@ -10,10 +10,11 @@ function Host ({name, picture}) {
             </div>
 
             <div>
-                <img src={picture} alt="image-host"/>
+                <img src={picture} alt="image du propriétaire" />
             </div>
         </div>
     )
 }
 
 export default Host
+

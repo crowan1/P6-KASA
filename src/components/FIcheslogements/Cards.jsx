@@ -19,12 +19,12 @@ function Slider({ slides }) {
     <section className="logement-slide">
       {length > 1 && (
         <p className="mg-prev" onClick={prevImage}>
-          <FontAwesomeIcon icon={faChevronLeft}/>
+          <FontAwesomeIcon icon={faChevronLeft} />
         </p>
       )}
       {length > 1 && (
         <p className="mg-next" onClick={nextImage}>
-          <FontAwesomeIcon icon={faChevronRight}/>
+          <FontAwesomeIcon icon={faChevronRight} />
         </p>
       )}
 
@@ -32,7 +32,8 @@ function Slider({ slides }) {
         <img
           className="slider"
           src={slides[currentImage]}
-          alt={`Slide ${currentImage + 1}`}
+          alt="image de l'appartement en details "
+        
         />
         {length > 1 && (
           <span className="slider-num">

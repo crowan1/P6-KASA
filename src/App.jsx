@@ -8,14 +8,14 @@ import Page404 from '../src/pages/PageEror.jsx'
 function App() {
   return (
     <HashRouter>
-    <Routes>
-      <Route path="/" element={<Navigate replace to="/accueil" />} />
-      <Route path="/accueil" element={<Home />} />
+      <Routes>
+        <Route path="/" element={<Navigate replace to="/accueil" />} />
+        <Route path="/accueil" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path='/logement/:id' element={<CardLogement/>} />
-        <Route path='*' element={<Page404/>}/>
-    </Routes>
-  </HashRouter>
+        <Route path='/logement/:id' element={<CardLogement />} />
+        <Route path='*' element={<Page404 />} />
+      </Routes>
+    </HashRouter>
   );
 }
 

@@ -2,17 +2,17 @@ import React from "react";
 import '../../assets/tags.scss';
 
 
-function Tags ({tags}) {
+function Tags({ tags }) {
 
-    return(
+    return (
         <div>
             <ul className="liste-tag">
-                {tags.map((tag, index) =>(
-                       <li key={index} className="tags">
+                {tags.map((tag, index) => (
+                    <li key={index} className="tags">
                         {tag}
                     </li>
                 )
-                 
+
                 )}
             </ul>
         </div>
@@ -20,3 +20,4 @@ function Tags ({tags}) {
 }
 
 export default Tags
+

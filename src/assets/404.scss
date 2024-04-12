@@ -1,35 +1,33 @@
+* {
+    font-family: 'Montserrat';
+}
+
 .container {
     display: flex;
     flex-direction: column;
     gap: 130px;
 
-    .title-404{
-        color:  #FF6060;
+    .title-404 {
+        color: #FF6060;
         font-size: 288px;
         font-family: 'Montserrat';
         font-weight: 700;
         margin: 0;
         text-align: center;
     }
-.p-container{
-    color :  #FF6060;
-    text-align: center;
-    font-size: 36px;
+
+    .p-container {
+        color: #FF6060;
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .lien-acceuil {
+        font-size: 18px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
 }
-.lien-acceuil{
-    font-size: 18px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px ;
-}
-    
-}
-
-
-
-
-
-
-
-

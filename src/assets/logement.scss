@@ -1,9 +1,11 @@
-.card-container{
+* {
+    font-family: 'Montserrat';
+}
+
+.card-container {
     width: 90%;
     margin: auto;
 }
-
-
 
 .slideractive {
     height: 415px;
@@ -11,12 +13,12 @@
     margin-bottom: 20px;
 }
 
-.icon-vide{
+.icon-vide {
     color: #E3E3E3;
 }
 
 
-.slider-num{
+.slider-num {
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -25,7 +27,7 @@
     left: 50%;
 }
 
-.mg-prev{
+.mg-prev {
     color: white;
     font-size: 50px;
     position: absolute;
@@ -33,7 +35,7 @@
     left: 8%;
 }
 
-.mg-next{
+.mg-next {
     color: white;
     font-size: 50px;
     position: absolute;
@@ -41,7 +43,7 @@
     right: 8%;
 }
 
-.title-logement{
+.title-logement {
     color: #FF6060;
     font-family: 'Montserrat';
     font-weight: 500;
@@ -49,7 +51,7 @@
 
 }
 
-.tag-rat-container{
+.tag-rat-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,22 +59,22 @@
 
 .slider {
     height: 415px;
-width: 100%;
-object-fit: cover;
-border-radius: 25px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
 }
 
- .title {
+.title {
     display: flex;
     justify-content: space-between;
     padding: 10px 15px 10px 10px;
 }
 
-.col-2{
+.col-2 {
     width: 45%;
 }
 
-.container-title-rat{
+.container-title-rat {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -80,21 +82,22 @@ border-radius: 25px;
 
 @media screen and (max-width: 550px) {
 
-    .mg-prev{
-        position: absolute;
-        top: 180px;
-    }
-    .mg-next{
+    .mg-prev {
         position: absolute;
         top: 180px;
     }
 
-    .slider-num{
+    .mg-next {
+        position: absolute;
+        top: 180px;
+    }
+
+    .slider-num {
         position: absolute;
         top: 300px;
     }
 
-    .slider{
+    .slider {
         height: 255px;
     }
 }

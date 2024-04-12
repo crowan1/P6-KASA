@@ -4,17 +4,17 @@ import Footer from '../components/Footer.jsx';
 import Nav from '../components/Banner.jsx'
 import Cardslogements from '../components/FIcheslogements/Logements-cards.jsx'
 
-const CardLogement = () =>{
+const CardLogement = () => {
 
-    return(
+    return (
         <div>
-          {Nav}
-
-          <Cardslogements/>
+            {Nav}
+            <Cardslogements />
             {Footer}
-    
+
         </div>
     )
 }
 
 export default CardLogement
+

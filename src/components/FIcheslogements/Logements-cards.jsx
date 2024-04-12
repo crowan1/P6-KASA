@@ -1,4 +1,4 @@
-import { useParams, Navigate} from 'react-router-dom'
+import { useParams, Navigate } from 'react-router-dom'
 import LogementData from '../../data/logement.json'
 import Collapse from '../../components/Collapse.jsx'
 import '../../assets/collapse.scss'
@@ -27,25 +27,25 @@ const Cardslogements = () => {
     return (
         <div className='card-container'>
             <div className='container-slides'>
-                <Slider slides={FicheLog?.pictures}/>
+                <Slider slides={FicheLog?.pictures} />
             </div>
 
             <div className='container-title-rat'>
-<div className='title-logement-card'>
- <Name location={FicheLog?.location} nom={FicheLog?.title}/>
- <br />
-                <Tags tags={FicheLog?.tags}/>
-            </div>
-               <div className='rat-user-logement'>
- <Host  name={FicheLog?.host.name} picture={FicheLog?.host.picture}/>
- <br />
-            <Rate  ratingScale= {FicheLog?.rating} />
+                <div className='title-logement-card'>
+                    <Name location={FicheLog?.location} nom={FicheLog?.title} />
+                    <br />
+                    <Tags tags={FicheLog?.tags} />
+                </div>
+                <div className='rat-user-logement'>
+                    <Host name={FicheLog?.host.name} picture={FicheLog?.host.picture} />
+                    <br />
+                    <Rate ratingScale={FicheLog?.rating} />
 
-               </div>
+                </div>
             </div>
             <div className='collapse-container'>
                 <div className='col-2'>
-                    <Collapse 
+                    <Collapse
                         title="Description"
                         content={FicheLog.description}
                     />

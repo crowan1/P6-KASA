@@ -1,4 +1,4 @@
-.IMG-cover{
+.IMG-cover {
     width: 90%;
     margin: auto;
     height: 200;
@@ -7,26 +7,27 @@
     border-radius: 25px;
 
 }
-    .p-cover-montagne{
-        color: white;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Montserrat';
-        font-weight: 700;
-        font-size: 48px;
-        background-color: rgba(0, 0, 0, 0.578);
-        border-radius: 25px;
-        margin-top: 0;
-        padding-left: 20px;
-    }
 
-    @media screen and (max-width: 450px) {
-        .IMG-cover .p-cover-montagne{
-            height: 125PX;
-            font-size: 24PX;
-            padding-left: 15px;
-        }
+.p-cover-montagne {
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+    background-color: rgba(0, 0, 0, 0.578);
+    border-radius: 25px;
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .IMG-cover .p-cover-montagne {
+        height: 125PX;
+        font-size: 24PX;
+        padding-left: 15px;
     }
+}

@@ -1,14 +1,12 @@
-
-
 .liste-tag {
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 15px;
     padding: 0;
-    
 
-    .tags{
+
+    .tags {
         background-color: #FF6060;
         border-radius: 10px;
         font-family: 'Montserrat';
@@ -16,10 +14,11 @@
         font-size: 14px;
         color: white;
         padding: 5px 5px 5px 5px;
+        line-height: 19.96px;
 
     }
 }
 
-.ratting-container{
+.ratting-container {
     padding: 20PX;
 }

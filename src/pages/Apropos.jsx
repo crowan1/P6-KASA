@@ -5,27 +5,28 @@ import CollapseData from '../../src/data/collapse.json';
 import React from 'react';
 
 
-const About = () =>{
+const About = () => {
     return (
-    <div>
-        {Nav}
-        <main>
-            <div className='Collapse-dropdown'>
-                {CollapseData.map((item) =>{
-                    return (
-                        <div key={item.id}>
-                            <Collapse content={item.content} title={item.title} />
-                        </div>
-                    );
-                })}
+        <div>
+            {Nav}
+            <main>
+                <div className='Collapse-dropdown'>
+                    {CollapseData.map((item) => {
+                        return (
+                            <div key={item.id}>
+                                <Collapse content={item.content} title={item.title} />
+                            </div>
+                        );
+                    })}
 
-            </div>
-        </main>
-        {Footer}
-    </div>
-)
+                </div>
+            </main>
+            {Footer}
+        </div>
+    )
 
 
 }
 
 export default About
+
